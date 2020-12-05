@@ -1,18 +1,21 @@
-</html>
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-</head>
-<body>
-    <div class="container">
-          <h2 id=excuses><button type="button" class="btn btn-danger">Excuses</button>  </h2>
-    </div>
-<script src="test.js"></script>
-</body>
+    <head>
+        <title>Excuse Generator</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="test.js"></script>
+    </head>
+    <body>
+        <div class="wrap">
+            <div>Excuse generator!</div>
+            <button onclick="getRandomExcuse();" class="gen"> Click to get an excuse!</button>
+        
+            <div id="excuses"></div>
+        </div>
+    </body>
 </html>
